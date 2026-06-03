@@ -1,0 +1,7 @@
+# Python dependencies for snCUTTAG-label
+#
+# Core scripts (make_samplesheet.py, label_snCUTTAG.py) use the standard
+# library only — no installation required beyond Python >= 3.8.
+#
+# bam_to_fragments.py requires pysam:
+pysam>=0.22.0
