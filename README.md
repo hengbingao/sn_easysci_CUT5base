@@ -1,4 +1,4 @@
-# snCUTTAG-label
+# easysci_CUT5base-label
 
 A lightweight pipeline for processing snCUT&TAG libraries that **labels every read with its full barcode identity instead of splitting into per-cell FASTQ files**. All four index layers — i5 ligation, N5 well, I7 sample, and Tn5 modality — are embedded in the read name and FASTQ comment field, enabling a single mapping job followed by flexible BAM-level grouping.
 
